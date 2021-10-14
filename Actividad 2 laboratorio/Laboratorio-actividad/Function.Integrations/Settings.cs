@@ -1,14 +1,15 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
+using System.collections.generic;
+using system.text;
 
-namespace Function.Integrations
+
+namespace function.integrations
 {
-   public class Settings
+   public class settings
     {
-        public string DotnetExPath { get; set; }
-        public string FunctionHostPath { get; set; }
-        public string FunctionApplicationPath { get; set; }
-        public string AzureWebJobsStorage { get; set; }
+        public string dotnetexpath { get; set; }
+        public string functionhostpath { get; set; }
+        public string functionapplicationpath { get; set; }
+        public string azurewebjobsstorage { get; set; }
     }
 }

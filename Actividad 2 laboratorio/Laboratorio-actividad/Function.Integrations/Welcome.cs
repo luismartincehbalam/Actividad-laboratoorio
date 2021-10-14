@@ -12,6 +12,7 @@ namespace Function.Integrations
 {
     public static class Welcome
     {
+    {
         [FunctionName("Welcome")]
         public static async Task<IActionResult> Run(
             [HttpTrigger(AuthorizationLevel.Anonymous, "get", "post", Route = null)] HttpRequest req,
